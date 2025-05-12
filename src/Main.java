@@ -458,7 +458,7 @@ public class Main{
           for(int i=8;i<11;i++){
             if(i==rand){
               int newage = i+player.getAge();
-              player.setage(i);
+              player.setage(newage);
               System.out.println("You are now " + newage + " years old.");
             }
           }
