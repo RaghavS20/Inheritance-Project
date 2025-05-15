@@ -106,7 +106,9 @@ public class Main{
               int rand = (int)(Math.random()*10+10);
               player.subtractmoney(100.00);
               System.out.println("Your meal was so luxurious that your stress reduced by " + rand);
+              System.out.println("Your health increased by 20");
               player.addHunger(20);
+              player.addhealth(20);
               player.reduceStress(rand);
             }
             if(ans1.equals("2")){
